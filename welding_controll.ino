@@ -8,15 +8,15 @@
 #include <Arduino.h>
 
 // Pinouts
-// Potentiometer
 #define PIN_WELDING_LED 13
-#define PIN_WELDING_RELAY1 5
-#define PIN_WELDING_RELAY2 6
+// Potentiometer
 #define PIN_POTENTIOMETER A0
 // Button
 #define PIN_WELDING_AUTOMATIC_BUTTON 3
 #define PIN_WELDING_MANUAL_BUTTON 4
 // Relays
+#define PIN_WELDING_RELAY1 5
+#define PIN_WELDING_RELAY2 6
 
 // Constants
 #define ONE_TICK_DELAY 50
